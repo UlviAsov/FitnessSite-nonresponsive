@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('../css/responsive.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+header .container .logo{
+    background-color: #222;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding: 0 50px;
+}
+header .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    padding: 0 50px;
+}
+header .container nav .icons a{
+    color: #666;
+    margin: 10px;
+    font-size: 17px;
+}
+header .container nav .icons a span:hover{
+    color: #999;
+}
+header .container nav .icons a i{
+    color: #FF7300;
+    font-size: 20px;
+}
+header .container nav ul{
+    font-size: 14px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .container nav ul li a{
+    color: #666;
+}
+header .container nav ul li a:hover{
+    color: #FF7300;
+}
+header .container .logo p a{
+    color: white;
+}
+header .container .logo p .the{
+    border: 2px solid white;
+    padding:15px 10px;
+}
+header .container .logo p .studio{
+    font-weight: bold;
+    padding-left: 10px;
+}
+header .bars{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding-right: 50px;
+    color: white;
+    display: none;  
+}

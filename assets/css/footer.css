@@ -1,0 +1,61 @@
+footer{
+    margin-top: 100px;
+    border-top: 2px solid blue;
+    padding-top: 1px;
+}
+footer #footer-top{
+    background-color: #222;
+}
+footer #footer-top .container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 50px;
+}
+footer #footer-top .container li{
+    padding-bottom: 10px;
+}
+footer #footer-top .container .menu li{
+    color: white;
+}
+footer #footer-top .container .menu li:hover{
+    color: #FF7300;
+}
+footer #footer-top .container h2{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer #footer-top .container .logo{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0 50px;
+}
+footer #footer-top .container .logo p a{
+    color: white;
+}
+footer #footer-top .container .logo p .the{
+    border: 2px solid white;
+    padding:15px 10px;
+}
+footer #footer-top .container .logo p .studio{
+    font-weight: bold;
+    padding-left: 10px;
+}
+footer #footer-top .container .icons{
+    margin-top: 30px;
+    font-size: 20px;
+} 
+footer #footer-top .container .icons i{
+    padding-right: 10px;
+}
+footer #footer-bottom{
+    background-color: #FF7300;
+    text-align: center;
+    padding: 50px 0;
+}
+footer #footer-bottom p a{
+    color: black;
+    text-decoration: underline;
+}
